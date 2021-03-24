@@ -1,0 +1,76 @@
+
+.welcom{
+    /*欢迎登录*/
+    font-weight: bold;
+    font-size: 24px;
+    color: green;
+    padding-top: 32px;
+}
+.reglog{
+    /*立即登录, 立即注册*/
+
+    /*变为行级元素,让两个div元素在同一行*/
+    /*display:inline;*/
+
+    /*定位: relative 生成相对定位的元素，相对于其正常位置进行定位。*/
+    position:relative;
+    left: 180px;
+}
+.msg01{
+    /*变为行级元素*/
+    /*display:inline;*/
+    font-size: 5px;
+    color: red;
+}
+body{
+    /*全局背景图片*/
+    /*background-image: url("../img/bg.jpg");*/
+    background-size: 100% ;
+}
+/*表单背景*/
+#div1{
+    background-color: whitesmoke;
+    width: 300px;
+    /*height: 380px;*/
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 70%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+table{
+    /*表格行距列距*/
+    border-spacing: 2px 20px;
+}
+
+.siglog{
+    padding-top: 20px;
+    margin-left: -30px;
+}
+/*按钮样式*/
+[type="submit"]{
+    background-color: rgba(24,160,39,0.8);
+    width: 100%;
+    height: 40px;
+}
+/*输入框背景*/
+.item{
+    /*background-color: rgba(164,164,164,0);*/
+}
+/*页脚*/
+#bottom {
+    color: rgba(164,164,164,0.77);
+    /*居中*/
+    margin-left: 45%;
+    margin-right: auto;
+    /*置底*/
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+}
+
+/*设置所有文字样式*/
+/**{*/
+/*    color: rgba(60,60,60,0.8);*/
+/*    text-shadow: rgba(0,0,0,0.8);*/
+/*}*/
